@@ -1,12 +1,13 @@
 {
     "user_id_list": [
-        "6074526225"
+        "7240847396"
     ],
     "only_crawl_original": 0,
     "since_date": 1,
     "start_page": 1,
     "write_mode": [
-        "csv"
+        "csv",
+        "mysql"
     ],
     "original_pic_download": 1,
     "retweet_pic_download": 0,
@@ -23,7 +24,7 @@
         "host": "localhost",
         "port": 3306,
         "user": "root",
-        "password": "123456",
+        "password": "root",
         "charset": "utf8mb4"
     },
     "mongodb_URI": "mongodb://[username:password@]host[:port][/[defaultauthdb][?options]]"
